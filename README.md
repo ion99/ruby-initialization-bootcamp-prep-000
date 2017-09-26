@@ -53,10 +53,6 @@ class Dog
     @breed = breed
   end
 
-  def breed=(breed)
-    @breed = breed
-  end
-
   def breed
     @breed
   end
@@ -81,7 +77,7 @@ You can also think of the initialize method as a constructor method. A construct
 
 So, because of how we defined our initialize method, every time you type `Dog.new("some breed")`, a new dog instance is created that has a breed of "some breed" (i.e. whatever string you give the `#new` method).
 
-## Resources 
+## Resources
 
 * [Video Review- Intro to OO](https://www.youtube.com/watch?v=UysgBTrJoTc)
 
